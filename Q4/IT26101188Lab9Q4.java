@@ -6,7 +6,7 @@ public class IT26101188Lab9Q4 {
         return (assignmentMark * 0.3) + (examMark * 0.7);
     }
   
-    public static String findGrades(double finalMark) {
+    public static char findGrades(double finalMark) {
         if (finalMark >= 75) {
             return "A";
         } else if (finalMark >= 60) {
